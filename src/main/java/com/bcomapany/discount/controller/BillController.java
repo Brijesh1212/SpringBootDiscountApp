@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bcomapany.discount.entity.Bill;
 import com.bcomapany.discount.service.BillService;
 
+/*
+ * Bill controller which will handle API requests related to bills
+ * DI is done with constructor
+ * 
+ * */
 @RestController
 @RequestMapping("/bill")
 public class BillController {

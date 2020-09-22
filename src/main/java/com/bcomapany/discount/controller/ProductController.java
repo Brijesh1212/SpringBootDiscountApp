@@ -15,6 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bcomapany.discount.entity.Product;
 import com.bcomapany.discount.service.ProductService;
 
+/*
+ * Product controller which will handle API requests related to products
+ * DI is done with constructor
+ * 
+ * */
+
 @RestController
 @RequestMapping("/product")
 public class ProductController {

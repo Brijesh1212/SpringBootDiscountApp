@@ -7,6 +7,12 @@ import org.springframework.stereotype.Service;
 import com.bcomapany.discount.entity.Product;
 import com.bcomapany.discount.repository.ProductRepository;
 
+
+/*
+ * ProdcutServiceImpl class which implements ProductService  to provide business logic
+ * 
+ * */
+
 @Service
 public class ProductServiceImpl implements ProductService {
 	

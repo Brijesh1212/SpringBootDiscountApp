@@ -4,6 +4,13 @@ import java.util.List;
 
 import com.bcomapany.discount.entity.Product;
 
+
+/*
+ * ProductService interface which will be implemented by ProductServiceImpl to provide business logic
+ * 
+ * */
+
+
 public interface ProductService {
 	
 	Product addProdct(Product product) throws Exception;

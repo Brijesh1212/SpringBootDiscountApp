@@ -8,6 +8,7 @@ import com.bcomapany.discount.entity.User;
  * UserService interface which will be implemented by UserServiceImpl to provide business logic
  * 
  * */
+
 public interface UserService {
 	
      User addUser(User user) throws Exception;

@@ -14,6 +14,11 @@ import com.bcomapany.discount.entity.Product;
 import com.bcomapany.discount.entity.User;
 import com.bcomapany.discount.entity.UserType;
 
+/*
+ * Spring boot application started, on run it will generate the data and put in H2 which is temporary
+ * DI has been done with constructor
+ *  
+ * */
 @SpringBootApplication
 public class SpringBootDiscountAppApplication implements CommandLineRunner{
 	
@@ -75,12 +80,12 @@ public class SpringBootDiscountAppApplication implements CommandLineRunner{
 		 
 		 List<Product> products = new ArrayList<Product>();
          
-		 products.add(new Product("TV", "Other", 10000.00));
-         products.add(new Product("Phone", "Other", 8000.00));
-         products.add(new Product("Laptop", "Other", 28000.00));
+		 products.add(new Product("TV", "Other", 10000.20));
+         products.add(new Product("Phone", "Other", 8000.55));
+         products.add(new Product("Laptop", "Other", 28000.52));
          products.add(new Product("Tea Powder", "groceries", 8000.00));
-         products.add(new Product("Milk", "groceries", 8000.00));
-         products.add(new Product("Sugar", "groceries", 8000.00));
+         products.add(new Product("Milk", "groceries", 8000.10));
+         products.add(new Product("Sugar", "groceries", 8000.03));
          
          System.out.println("========= Products ===========");
 		 System.out.println(productController.saveAll(products).toString());

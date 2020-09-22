@@ -4,6 +4,12 @@ import java.io.Serializable;
 
 import javax.persistence.Entity;
 
+
+/*
+ * Product entity which extends IdEntity and provides mapping with db
+ * 
+ * */
+
 @Entity
 public class Product extends IdEntity implements Serializable{
 	

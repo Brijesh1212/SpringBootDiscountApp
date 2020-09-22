@@ -7,6 +7,12 @@ import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
 import org.hibernate.id.IdentifierGenerator;
 
+
+/*
+ * Generates unique ID 
+ * 
+ * */
+
 public class UniqueIdGenerator implements IdentifierGenerator {
 
     public static final String generatorName = "myGenerator";

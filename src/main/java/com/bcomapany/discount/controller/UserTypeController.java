@@ -16,6 +16,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bcomapany.discount.entity.UserType;
 import com.bcomapany.discount.service.UserTypeService;
 
+/*
+ * User type controller which will handle API requests related to user type
+ * DI is done with constructor
+ * 
+ * */
+
 @RestController
 @RequestMapping("/userType")
 public class UserTypeController {

@@ -14,6 +14,11 @@ import org.hibernate.annotations.GenericGenerator;
 
 import com.bcomapany.discount.util.UniqueIdGenerator;
 
+/*
+ * Bill entity mapped to database but not required now
+ * 
+ * */
+
 @Entity
 public class Bill {
 	
